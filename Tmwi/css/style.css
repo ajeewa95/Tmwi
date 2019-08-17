@@ -1,29 +1,35 @@
-.bd-example {
+/*This is to restrict the height of the carousel, more speciifcaly the images
+*/.bd-example {
 	max-height: 60%;
 }
-.carousel-caption {
+
+/*This is what is centering the text on the carousel images, if this was not here the text would appear at the base of the images.
+*/.carousel-caption {
 padding-bottom: 25%;
 }
 
-
-.cardcols {
+/*This is what is centering the cards and giving it their position, I used percentage becuase boostrap column layout and flex is not compatible
+*/.cardcols {
 	margin-top: 5%;
 	margin-left: 20%;
 	margin-right: 20%
 }
 
-.card-title {
+/*This is what is centering the cards titles
+*/.card-title {
 	display: flex;
 	justify-content: center;
 }
 
-.section3 {
+/*This is what is centering the jumbotron
+*/.section3 {
 	display: flex;
 	justify-content: center;
 	margin-top: 5%;
 }
 
-.jumbotron {
+/*This is restricting the width of the jumbotron so that it can keep in line with the cards div width as according to the wireframs requirements
+*/.jumbotron {
 	max-width: 65%;
 }
 
